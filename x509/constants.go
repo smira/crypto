@@ -7,7 +7,7 @@ package x509
 import "time"
 
 // DefaultCertificateValidityDuration is a default certificate lifetime.
-const DefaultCertificateValidityDuration = 24 * time.Hour
+const DefaultCertificateValidityDuration = time.Minute
 
 // PEM Block Header Types.
 const (
